@@ -1,5 +1,5 @@
 
-print("Cambio realizado por el desarrollador B")
+print("Cambio realizado por ambos desarrolladores")
 print("============================")
 print("         TASK MANAGER       ")
 print("============================")
