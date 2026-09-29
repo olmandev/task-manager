@@ -1,7 +1,7 @@
 
 print("Cambio realizado por ambos desarrolladores")
 print("============================")
-print("         TASK MANAGER       ")
+print("      TASK MANAGER v2       ")
 print("============================")
 
 nombre = "Olman"
