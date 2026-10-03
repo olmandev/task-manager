@@ -17,7 +17,8 @@ mensaje = (
     "\n1. Ver tareas"
     "\n2. Agregar tarea"
     "\n3. Eliminar tarea"
-    "\n4. Salir\n\n"
+    "\n4. Salir"
+    "\n5. Marcar tarea como completada\n\n"
 )
 
 tareas = []
@@ -54,6 +55,16 @@ while True:
             print("\nSaliendo...")
             break
 
+        elif opcion ==5:
+            if not tareas:
+                print("No hay tareas agregadas.")
+            else:
+                indice = int(input("Ingrese el número de tarea: "))
+                if 1 <= indice <= len(tareas):
+                    tareas[indice -1] = tareas[indice -1] + "...Completed"
+                    print("\nTarea marcada como completada")
+                else:
+                    print("\nLa tarea seleccionada no existe")
         else:
             print("\nOpción inválida")
 
